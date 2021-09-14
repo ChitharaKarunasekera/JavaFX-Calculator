@@ -26,4 +26,9 @@ public class MainWindow extends Application {
         ((MainWindowController)loader.getController()).init(stage);
         stage.show();
     }
+    
+     public void run() {
+        launch();
+    }
+    
 }
